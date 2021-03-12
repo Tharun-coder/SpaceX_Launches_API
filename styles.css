@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.2em;
+  background-image: linear-gradient(
+    to left,
+    rgb(54, 53, 53),
+    rgb(143, 125, 125)
+  );
+  padding: 15px;
+  color: whitesmoke;
+}
+
+.list {
+  padding: 0px 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-image: url("https://images.unsplash.com/photo-1541185934-01b600ea069c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BhY2V4fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+}
+
+.list-item {
+  height: 150px;
+  line-height: 25px;
+  text-align: center;
+  overflow: hidden;
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  padding: 5px;
+  border-bottom: 2px solid black;
+  font-family: Helvetica, sans-serif;
+}
+
+.list-item:nth-child(even) {
+  background-color: blanchedalmond;
+  color: white;
+}
+.list-item:nth-child(odd) {
+  background-color: orange;
+}
+
+.list-item h3 {
+  font-style: italic;
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  color: black;
+}
+
+.list-item a {
+  text-decoration-line: unset;
+  color: blue;
+}
+
+.list-item:nth-child(odd) p {
+  color: white;
+}
+
+.list-item:nth-child(even) p {
+  color: black;
+}

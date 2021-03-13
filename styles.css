@@ -23,7 +23,7 @@ h1 {
   padding: 0px 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
+  height: 486px;
   background-image: url("https://images.unsplash.com/photo-1541185934-01b600ea069c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BhY2V4fGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
   background-size: cover;
 }
@@ -65,5 +65,57 @@ h1 {
 }
 
 .list-item:nth-child(even) p {
+  color: black;
+}
+
+.page-nums {
+  background-color: orange;
+  height: 100px;
+  text-align: center;
+}
+
+.page-nums button {
+  position: relative;
+  top: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  width: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.page-nums button:hover {
+  background-color: black;
+  color: white;
+}
+
+.page-nums .active {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 30px;
+}
+
+.footer p {
+  padding: 5px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.links {
+  text-align: right;
+  padding-left: 1100px;
+}
+
+.links a {
+  padding-left: 10px;
+}
+
+.links a i {
   color: black;
 }

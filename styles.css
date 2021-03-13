@@ -119,10 +119,6 @@ h1 {
   padding-left: 10px;
 }
 
-.links a:nth-last-child() {
-  padding-left: 0px;
-}
-
 .links a i {
   color: black;
 }

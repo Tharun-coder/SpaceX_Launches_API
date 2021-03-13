@@ -112,11 +112,15 @@ h1 {
 
 .links {
   text-align: right;
-  padding-left: 1150px;
+  padding-left: 1100px;
 }
 
 .links a {
   padding-left: 10px;
+}
+
+.links a:nth-last-child() {
+  padding-left: 0px;
 }
 
 .links a i {
